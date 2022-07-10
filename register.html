@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/register.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="switch">
+        <span class="left">注册</span>
+        <div class="ball">
+            <div class="small-ball"></div>
+        </div>
+        <span class="right">登录</span>
+    </div>
+    <div id="big-box">
+        <div class="register">
+            <form action="" class="front">
+                <h2>register</h2>
+                <input type="text" name="user" placeholder="用户名" >
+                <p class="message1"></p>
+                <input type="email" name="email" placeholder="邮箱">
+                <p class="message2"></p>
+                <input type="password" name="pwd" placeholder="密码">
+                <p class="message3"></p>
+                <input type="password" name="repwd" placeholder="确认密码">
+                <p class="message4"></p>
+                <button class="reg">注册</button>
+            </form>
+        </div>
+        <div class="login">
+            <form action="" class="back">
+                <h2>login</h2>
+                <input type="text" placeholder="用户名" name="user1">
+                <p class="message5"></p>
+                <div class="bigeye"><input type="password" placeholder="密码" name="pwd1"><span class="iconfont eye">&#xe6a2;</span></div>
+
+
+                <p class="message6"></p>
+                <button class="log" onclick="window.open('index.html')">登录</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
